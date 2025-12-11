@@ -1,0 +1,104 @@
+.repoItem-pie {
+  width: 100%;
+  height: 100%;
+}
+
+.analysis-lpr-pie {
+  width: 100%;
+  height: 100%;
+}
+
+.analysis-lpch-pie {
+  width: 100%;
+  height: 100%;
+}
+
+.top10commits-pie {
+  height: 100%;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1439px) {
+  .top10CommitsSmallScreen {
+    display: flex;
+    align-items: center;
+    flex-direction: row !important;
+    margin-left: 0px !important;
+  }
+}
+
+@media screen and (min-width: 360px) and (max-width: 1439px) {
+  .piechart-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 43px;
+  }
+
+  .pie-chart-container {
+    margin-left: 48px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .top10CommitsSmallScreen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0px !important;
+  }
+
+  .repoItem-pie {
+    width: clamp(155px, calc(155px + 0.1993 * (100vw - 360px)), 370px);
+    height: clamp(155px, calc(155px + 0.1993 * (100vw - 360px)), 370px);
+    /*
+    //width: 155px;
+    //height: 155px; 
+    */
+  }
+
+  .analysis-lpr-pie {
+    width: 174px;
+    height: 174px;
+  }
+
+  .analysis-lpch-pie {
+    width: 174px;
+    height: 174px;
+  }
+  .top10commits-pie {
+    height: 224px;
+    width: 224px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .piechart-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+  .pie-chart-container {
+    height: 100%;
+    width: 100%;
+  }
+  .repoItem-pie {
+    width: 370px;
+    height: 370px;
+  }
+
+  .analysis-lpr-pie {
+    width: 245px;
+    height: 245px;
+  }
+
+  .analysis-lpch-pie {
+    width: 245px;
+    height: 245px;
+  }
+
+  .top10commits-pie {
+    height: 369px;
+    width: 369px;
+  }
+}

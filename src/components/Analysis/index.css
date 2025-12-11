@@ -1,0 +1,385 @@
+@media screen and (min-width: 360px) and (max-width: 767px) {
+  .lrlc {
+    display: flex;
+    flex-direction: column;
+    margin-left: 48px;
+  }
+}
+
+@media screen and (min-width: 360px) and (max-width: 1439px) {
+  .analysis-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #0f172a;
+    min-height: 100vh;
+  }
+
+  .analysis-heading {
+    font-family: HK Grotesk;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0%;
+    color: #f8fafc;
+    margin-top: 16px;
+    height: 32px;
+    margin-left: 24px;
+  }
+
+  .linearChart {
+    background-color: #132240;
+    padding: 10px;
+    margin-top: 24px;
+    margin-left: 24px;
+    margin-right: 24px;
+  }
+
+  .lrlc {
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 24px;
+  }
+
+  .lang-per-repo {
+    font-family: HK Grotesk;
+    font-weight: 700;
+    font-size: 20px;
+    color: #f8fafc;
+    line-height: 32px;
+    letter-spacing: 0%;
+    margin-top: 32px;
+    margin-left: 24px !important;
+  }
+
+  .lpch {
+    font-family: HK Grotesk;
+    font-weight: 700;
+    font-size: 20px;
+    color: #f8fafc;
+    line-height: 32px;
+    letter-spacing: 0%;
+    margin-top: 32px;
+    margin-left: 24px !important;
+  }
+
+  .top10Name {
+    font-family: HK Grotesk;
+    font-weight: 700;
+    font-size: 20px;
+    color: #f8fafc;
+    line-height: 32px;
+    letter-spacing: 0%;
+    margin-top: 32px;
+  }
+
+  .top10commits {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 24px !important;
+  }
+
+  .loader-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  a-initial-container {
+    position: relative;
+  }
+
+  .a-initial-body {
+    position: absolute;
+    top: 135px;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .emtybox {
+    height: 226px;
+    width: 206.91px;
+  }
+  .noDataFound {
+    font-family: HK Grotesk;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0%;
+    color: #f8fafc;
+  }
+
+  .descforempty {
+    font-family: HK Grotesk;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #f8fafc;
+  }
+
+  .gthb {
+    padding: 8px 16px 8px 16px;
+    color: #414038;
+    font-family: HK Grotesk;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0px;
+    text-align: center;
+  }
+
+  .gotohome {
+    text-decoration: none;
+  }
+  .failed-view-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+  .failed-img {
+    position: absolute;
+    top: 128px;
+    left: 50%;
+    transform: translate(-50%);
+    height: 145px;
+    width: 296px;
+  }
+  .fail-desc-anal {
+    position: absolute;
+    top: 297px;
+    left: 50%;
+    transform: translate(-50%);
+    font-family: HK Grotesk;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0%;
+    color: #ffffff;
+    text-align: center;
+  }
+
+  .tryagainbut {
+    position: absolute;
+    top: 385px;
+    left: 50%;
+    transform: translate(-50%);
+    border-radius: 12px;
+    padding: 8px 16px 8px 16px;
+    background-color: #3b82f6;
+    font-family: HK Grotesk;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0%;
+    color: #ffffff;
+    border: none;
+  }
+  .empty-reponse-container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+  .empty-image {
+    position: absolute;
+    top: 112px;
+    left: 50%;
+    transform: translate(-50%);
+    height: 220px;
+    width: 296px;
+  }
+  .noAnalFound {
+    position: absolute;
+    top: 356px;
+    left: 50%;
+    transform: translate(-50%);
+    font-family: HK Grotesk;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0%;
+    color: #ffffff;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .analysis-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #0f172a;
+    position: relative;
+    min-height: 100vh;
+  }
+
+  .analysis-heading {
+    font-family: HK Grotesk;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    letter-spacing: 0%;
+    color: #f8fafc;
+    margin-top: 112px;
+    margin-left: 150px;
+    height: 48px;
+  }
+
+  .linearChart {
+    margin-top: 32px;
+    margin-left: 150px;
+    width: 1140px;
+    background-color: #132240;
+    padding: 10px;
+  }
+
+  .lrlc {
+    width: 1140px;
+    margin-top: 64px;
+    margin-left: 150px;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .top10commits {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    margin-top: 96px;
+    margin-left: 150px;
+  }
+
+  .top10Name {
+    font-family: HK Grotesk;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    letter-spacing: 0%;
+    color: #f8fafc;
+  }
+
+  .loader-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .emtybox {
+    position: absolute;
+    top: 146px;
+    left: 520px;
+  }
+  .noDataFound {
+    position: absolute;
+    top: 608px;
+    color: #ffffff;
+    left: 613px;
+  }
+
+  .descforempty {
+    position: absolute;
+    top: 678px;
+    left: 379px;
+    font-family: HK Grotesk;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #ffffff;
+  }
+
+  .gthb {
+    position: absolute;
+    top: 734px;
+    left: 653px;
+    padding: 8px 24px 8px 24px;
+    color: #414038;
+    font-family: HK Grotesk;
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: center;
+  }
+
+  .gotohome {
+    text-decoration: none;
+  }
+  .failed-view-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+  .failed-img {
+    position: absolute;
+    top: 215px;
+    left: 440px;
+    height: 274px;
+    width: 560px;
+  }
+  .fail-desc-anal {
+    position: absolute;
+    top: 537px;
+    left: 436px;
+    font-family: HK Grotesk;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    letter-spacing: 0%;
+    color: #ffffff;
+  }
+
+  .tryagainbut {
+    position: absolute;
+    top: 633px;
+    left: 677px;
+    border-radius: 12px;
+    padding: 12px 24px 12px 24px;
+    background-color: #3b82f6;
+    font-family: HK Grotesk;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: #ffffff;
+    border: none;
+  }
+  .empty-reponse-container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+  .empty-image {
+    position: absolute;
+    top: 160px;
+    left: 445px;
+    height: 409px;
+    width: 551px;
+  }
+  .noAnalFound {
+    position: absolute;
+    top: 617px;
+    left: 583px;
+    font-family: HK Grotesk;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    letter-spacing: 0%;
+    color: #ffffff;
+  }
+  .analysis-lpr-pie {
+  }
+  .analysis-lpch-pie {
+  }
+  .top10commits-pie {
+  }
+}

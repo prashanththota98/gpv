@@ -1,0 +1,561 @@
+@media screen and (min-width: 360px) and (max-width: 1439px) {
+  .repoItem-container {
+    background-color: #0f172a;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 150px;
+    position: relative;
+  }
+
+  .loading-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0f172a;
+  }
+
+  .itemDetailsContainer {
+    margin-top: 16px;
+    margin-left: 24px;
+    margin-right: 24px;
+    background-color: #ffffff0f;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .itemheading {
+    font-family: HK Grotesk;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0%;
+    color: #3b82f6;
+    margin-left: 16px;
+  }
+
+  .itemDesc {
+    font-family: HK Grotesk;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: #ffffff;
+    margin-left: 16px;
+  }
+
+  .lang-container {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-left: 16px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .stars-forks-container {
+    display: flex;
+    align-items: center;
+    margin-left: 16px;
+    margin-top: 20px;
+  }
+
+  .stars-container {
+    height: 24px;
+    width: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .star-logo {
+    width: 20px;
+    height: 21px;
+    margin-top: -2px;
+    margin-left: -2px;
+  }
+
+  .count {
+    font-family: HK Grotesk;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: #ffffff;
+  }
+
+  .forks-container {
+    margin-left: 24px;
+    width: 38px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .fork-logo {
+    height: 16px;
+    width: 16px;
+  }
+
+  .commits-issues-container {
+    margin-top: 32px;
+    margin-left: 16px;
+  }
+
+  .commits-container {
+    width: 161px;
+    height: 68px;
+    padding: 10px;
+    border: 1px solid #cbd5e1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+  }
+
+  .issues-contianer {
+    width: 161px;
+    height: 68px;
+    padding: 10px;
+    border: 1px solid #cbd5e1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    margin-top: 10px;
+  }
+
+  .ci-name {
+    font-family: HK Grotesk;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+  }
+
+  .cicount {
+    font-family: HK Grotesk;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+  }
+
+  .contributorHead {
+    margin-top: 20px;
+    font-family: HK Grotesk;
+    margin-left: 16px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0%;
+    color: #ffffff;
+    height: 32px;
+  }
+
+  .noofcontributors {
+    margin-top: 20px;
+    font-family: HK Grotesk;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: #cbd5e1;
+    margin-left: 16px;
+  }
+
+  .tryButton {
+    width: 58px;
+    height: 24px;
+    font-family: HK Grotesk;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: #ffffff;
+  }
+
+  .fail-con {
+    background-color: #0f172a;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+
+  .fail-image {
+    position: absolute;
+    top: 128px;
+    left: 50%;
+    transform: translate(-50%);
+    height: 145px;
+    width: 296px;
+  }
+
+  .failed-paraa {
+    position: absolute;
+    top: 297px;
+    left: 50%;
+    transform: translate(-50%);
+    font-family: HK Grotesk;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0%;
+    color: #ffffff;
+    text-align: center;
+  }
+
+  .tryButtton {
+    position: absolute;
+    top: 385px;
+    left: 50%;
+    transform: translate(-50%);
+    background-color: #3b82f6;
+    padding: 8px 16px 8px 16px;
+    border-radius: 12px;
+    font-family: HK Grotesk;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0%;
+    color: #ffffff;
+    border: none;
+  }
+
+  .contributorsImagesContainer {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    margin-left: 16px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .remaining-count {
+    height: 48px;
+    width: 48px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+  }
+
+  .remaining-count-image {
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+    border: none;
+    margin-right: 10px;
+    font-family: HK Grotesk;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0%;
+    color: #0f172a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .pieChartHeadingLanguages {
+    margin-top: 20px;
+    margin-left: 16px;
+    height: 25px;
+    font-family: HK Grotesk;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0%;
+    color: #f8fafc;
+  }
+  .repoitem-pie-con {
+    margin-left: 0px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .repoItem-container {
+    background-color: #0f172a;
+    min-height: 100vh;
+    display: flex;
+    padding-bottom: 150px;
+  }
+
+  .loading-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0f172a;
+  }
+
+  .itemDetailsContainer {
+    width: 1140px;
+    background-color: #ffffff0f;
+    margin-top: 136px;
+    margin-left: 150px;
+    border-radius: 8px;
+  }
+
+  .itemheading {
+    height: 48px;
+
+    margin-top: 48px;
+    margin-left: 48px;
+    font-family: HK Grotesk;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    letter-spacing: 0%;
+    color: #3b82f6;
+  }
+
+  .itemDesc {
+    margin-left: 48px;
+    margin-top: 12px;
+    font-family: HK Grotesk;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: #ffffff;
+  }
+
+  .lang-container {
+    list-style: none;
+    margin-top: 30px;
+    margin-left: 0px;
+    display: flex;
+  }
+
+  .stars-forks-container {
+    margin-top: 24px;
+    margin-left: 48px;
+    display: flex;
+    align-items: center;
+  }
+
+  .stars-container {
+    height: 24px;
+    width: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .star-logo {
+    width: 20px;
+    height: 21px;
+    margin-top: -2px;
+    margin-left: -2px;
+  }
+
+  .count {
+    font-family: HK Grotesk;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: #ffffff;
+  }
+
+  .forks-container {
+    margin-left: 24px;
+    width: 38px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .fork-logo {
+    height: 16px;
+    width: 16px;
+  }
+
+  .commits-issues-container {
+    display: flex;
+    align-items: center;
+    margin-top: 32px;
+    margin-left: 48px;
+  }
+
+  .commits-container {
+    width: 161px;
+    height: 68px;
+    padding: 10px;
+    border: 1px solid #cbd5e1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+  }
+
+  .issues-contianer {
+    width: 161px;
+    height: 68px;
+    margin-left: 24px;
+    padding: 10px;
+    border: 1px solid #cbd5e1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+  }
+
+  .ci-name {
+    font-family: HK Grotesk;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+  }
+
+  .cicount {
+    font-family: HK Grotesk;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+  }
+
+  .contributorHead {
+    margin-top: 32px;
+    margin-left: 48px;
+    font-family: HK Grotesk;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0%;
+    color: #ffffff;
+    height: 32px;
+  }
+
+  .noofcontributors {
+    margin-top: 24px;
+    margin-left: 48px;
+    font-family: HK Grotesk;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: #cbd5e1;
+  }
+
+  .tryButton {
+    width: 58px;
+    height: 24px;
+    font-family: HK Grotesk;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: #ffffff;
+  }
+
+  .fail-con {
+    background-color: #0f172a;
+    height: 100vh;
+    display: flex;
+    position: relative;
+  }
+
+  .fail-image {
+    position: absolute;
+    top: 279px;
+    left: 440px;
+    height: 274px;
+    width: 560px;
+  }
+
+  .failed-paraa {
+    position: absolute;
+    top: 601px;
+    left: 436px;
+    font-family: HK Grotesk;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    letter-spacing: 0%;
+    color: #ffffff;
+  }
+
+  .tryButtton {
+    position: absolute;
+    top: 697px;
+    left: 677px;
+    background-color: #3b82f6;
+    padding: 12px 24px 12px 24px;
+    border-radius: 12px;
+    font-family: HK Grotesk;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: #ffffff;
+  }
+
+  .contributorsImagesContainer {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .remaining-count {
+    height: 48px;
+    width: 48px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+  }
+
+  .remaining-count-image {
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+    border: none;
+    margin-right: 10px;
+    font-family: HK Grotesk;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0%;
+    color: #0f172a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .pieChartHeadingLanguages {
+    margin-top: 32px;
+    margin-left: 48px;
+    height: 32px;
+    font-family: HK Grotesk;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0%;
+    color: #f8fafc;
+  }
+}

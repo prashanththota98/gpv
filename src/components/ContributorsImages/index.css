@@ -1,0 +1,13 @@
+.ContributorItem {
+  height: 48px;
+  width: 48px;
+  margin-top: 5px;
+}
+
+.avatarImage {
+  height: 48px;
+  width: 48px;
+  border-radius: 50%;
+  border: none;
+  margin-right: 10px;
+}

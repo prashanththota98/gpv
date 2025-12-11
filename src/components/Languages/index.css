@@ -1,0 +1,40 @@
+.language-list-item {
+  margin-right: 20px;
+  margin-bottom: 10px;
+  padding: 4px 6px 4px 6px;
+  border-radius: 25px;
+}
+
+.language-name {
+  font-family: HK Grotesk;
+  font-weight: 600;
+  margin: 4px 8px 4px 8px;
+  font-size: 12px;
+  line-height: 24px;
+  letter-spacing: 0%;
+}
+
+.col1 {
+  color: #e879f9;
+  background-color: #c026d329;
+}
+
+.col2 {
+  color: #4ade80;
+  background-color: #22c55e29;
+}
+
+.col3 {
+  color: #38bdf8;
+  background-color: #0284c729;
+}
+
+.col4 {
+  color: #f472b6;
+  background-color: #db277729;
+}
+
+.col5 {
+  color: #fbbf24;
+  background-color: #f59e0b29;
+}

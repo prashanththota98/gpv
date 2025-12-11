@@ -1,0 +1,74 @@
+linearChartContainer {
+  width: 100%;
+  max-width: 600px;
+  text-align: center;
+  background-color: #132240;
+  padding: 10px;
+  border-radius: 8px;
+}
+.chartWrapper {
+  width: 100%;
+  height: 250px; /* default height */
+}
+/* Chart title styling */
+.chartTitle {
+  display: block;
+  color: #3b82f6;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 8px;
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+  .linearChartContainer {
+    max-width: 90%;
+    padding: 8px;
+  }
+  .chartWrapper {
+    height: 220px;
+  }
+  .chartTitle {
+    font-size: 16px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 360px) and (max-width: 767px) {
+  .linearChartContainer {
+    max-width: 100%;
+    padding: 6px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .chartWrapper {
+    height: 200px;
+    margin: 0 auto;
+  }
+  .chartTitle {
+    font-size: 14px;
+  }
+}
+
+/* 💻 Large screens (1440px and above) */
+@media (min-width: 1440px) {
+  .linearChartContainer {
+    width: 1140px;
+    height: 363px;
+    max-width: 90%;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* your requested width */
+  }
+  .chartWrapper {
+    width: 1100px;
+    height: 362px;
+    margin: 0 auto;
+  }
+  .chartTitle {
+    font-size: 14px;
+    text-align: center;
+  }
+}

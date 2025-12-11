@@ -1,0 +1,186 @@
+@media screen and (min-width: 360px) and (max-width: 1439px) {
+  .repolist-item {
+    width: 100%;
+    background-color: #ffffff0f;
+    padding: 0px;
+    list-style-type: none;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border-radius: 8px;
+  }
+  .item-container {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+  }
+
+  .projectName {
+    margin-left: 12px;
+    font-family: HK Grotesk;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: #3b82f6;
+  }
+
+  .projectDesc {
+    margin-left: 12px;
+    color: #ffffff;
+    font-family: HK Grotesk;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0%;
+  }
+
+  .languages-container {
+    padding: 0;
+    margin: 0;
+    margin-left: 12px;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .reopItemLink-style {
+    text-decoration: none;
+  }
+  .stargazers-and-forks-container {
+    margin-left: 24px;
+    display: flex;
+  }
+  .stargazerContainer {
+    display: flex;
+    align-items: center;
+  }
+  .forksContainer {
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+  }
+  .logostart {
+    height: 16px;
+    width: 16px;
+  }
+
+  .logofork {
+    height: 16px;
+    width: 16px;
+  }
+
+  .starCount {
+    font-family: HK Grotesk;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    margin-left: 15px;
+    color: #ffffff;
+  }
+
+  .forkCount {
+    font-family: HK Grotesk;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    margin-left: 15px;
+    color: #ffffff;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .repolist-item {
+    width: 100%;
+    height: 224px;
+    max-width: 1140px;
+    background-color: #ffffff0f;
+    padding: 0px;
+    margin: 0px 0px 25px 0px;
+    list-style-type: none;
+    box-sizing: border-box;
+  }
+
+  .item-container {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+  }
+
+  .projectName {
+    margin-left: 24px;
+    font-family: HK Grotesk;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0%;
+    color: #3b82f6;
+  }
+
+  .projectDesc {
+    margin-left: 24px;
+    color: #ffffff;
+    font-family: HK Grotesk;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+  }
+
+  .languages-container {
+    padding: 0;
+    margin: 0;
+    margin-left: 24px;
+    list-style: none;
+    display: flex;
+  }
+
+  .reopItemLink-style {
+    text-decoration: none;
+  }
+  .stargazers-and-forks-container {
+    margin-left: 24px;
+    display: flex;
+  }
+  .stargazerContainer {
+    display: flex;
+    align-items: center;
+  }
+  .forksContainer {
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+  }
+  .logostart {
+    height: 16.2px;
+    width: 15.07px;
+  }
+
+  .logofork {
+    height: 16px;
+    width: 16px;
+  }
+
+  .starCount {
+    font-family: HK Grotesk;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    margin-left: 15px;
+    color: #ffffff;
+  }
+
+  .forkCount {
+    font-family: HK Grotesk;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    margin-left: 15px;
+    color: #ffffff;
+  }
+}

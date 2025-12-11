@@ -1,0 +1,213 @@
+.logoheadlink-style {
+  text-decoration: none;
+}
+
+@media screen and (min-width: 360px) and (max-width: 1439px) {
+  .nav {
+    background-color: #0f172a;
+    left: 24px;
+    margin-top: 16px;
+    margin-left: 24px;
+    margin-right: 24px;
+  }
+
+  .logo-head-con {
+    height: 24px;
+    display: flex;
+    align-items: center;
+    width: 180px;
+  }
+
+  .logo-head {
+    font-family: HK Grotesk;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: #f8fafc;
+    text-decoration: none;
+    display: inline-block;
+  }
+
+  .hamburger-container {
+    color: #ffffff;
+    background-color: transparent;
+    border: none;
+  }
+
+  .ul-con {
+    display: none;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .liHome {
+    text-decoration: none;
+    font-family: HK Grotesk;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: -0.36px;
+    color: #f8fafc;
+    margin-top: 64px;
+  }
+
+  .liRepo {
+    text-decoration: none;
+    font-family: HK Grotesk;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: -0.36px;
+    color: #f8fafc;
+    margin-top: 64px;
+  }
+
+  .liAnal {
+    text-decoration: none;
+    font-family: HK Grotesk;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: -0.36px;
+    color: #f8fafc;
+    margin-top: 64px;
+  }
+
+  .showMenu {
+    display: flex !important;
+    flex-direction: column;
+  }
+
+  .active {
+    color: #3b82f6;
+  }
+
+  .sm-style {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1439px) {
+  .nav {
+    margin-top: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .hamburger-container {
+    display: none !important;
+  }
+
+  .logo-head-con {
+    font-family: HK Grotesk;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    color: #f8fafc;
+    text-decoration: none;
+  }
+  .logo-head {
+    font-family: HK Grotesk;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #f8fafc;
+    position: absolute;
+    letter-spacing: 0%;
+    display: inline-block;
+  }
+  .ul-con {
+    display: flex !important;
+    list-style-type: none;
+  }
+  .liHome {
+    font-size: 16px;
+    color: #f8fafc;
+    text-decoration: none;
+    margin-right: 20px;
+  }
+  .liRepo {
+    font-size: 16px;
+    color: #f8fafc;
+    text-decoration: none;
+    margin-right: 20px;
+  }
+  .liAnal {
+    font-size: 16px;
+    color: #f8fafc;
+    text-decoration: none;
+    margin-right: 20px;
+  }
+  .active {
+    color: #3b82f6;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .nav {
+    background-color: #0f172a;
+    width: 1140px;
+    height: 32px;
+    position: absolute;
+    left: 150px;
+    top: 32px;
+  }
+
+  .hamburger-container {
+    display: none !important;
+  }
+
+  .logo-head-con {
+    height: 32px;
+    display: flex;
+    align-items: center;
+    width: 265px;
+    position: absolute;
+  }
+  .logo-head {
+    font-family: HK Grotesk;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    color: #f8fafc;
+    position: absolute;
+    letter-spacing: 0%;
+    display: inline-block;
+  }
+  .ul-con {
+    display: flex !important;
+    list-style-type: none;
+  }
+  .liHome {
+    font-size: 16px;
+    color: #f8fafc;
+    position: absolute;
+    left: 882px;
+    top: 4px;
+    text-decoration: none;
+  }
+  .liRepo {
+    font-size: 16px;
+    color: #f8fafc;
+    position: absolute;
+    left: 960px;
+    top: 4px;
+    text-decoration: none;
+  }
+  .liAnal {
+    font-size: 16px;
+    color: #f8fafc;
+    position: absolute;
+    left: 1080px;
+    top: 4px;
+    text-decoration: none;
+  }
+  .active {
+    color: #3b82f6;
+  }
+}
