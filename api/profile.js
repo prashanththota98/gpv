@@ -7,7 +7,7 @@ export default async function handler(req, res) {
 
   try {
     const response = await fetch(
-      `https://apis2.ccbp.in/gpv/profile-details/${username}?api_key=${process.env.GITHUB_TOKEN}`
+      `https://apis2.ccbp.in/gpv/profile-details/${username}?api_key=${process.env.GITHUB_TOKEN}`,
     );
 
     const data = await response.json();

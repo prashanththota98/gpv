@@ -78,7 +78,7 @@ const RepositoryItemDetails = () => {
       };
       fetchData();
     }
-  }, [searchInput, repoName]);
+  }, [searchInput, repoName, fetchRepository]);
 
   if (apiStatus === apiContants.initial) {
     return (
